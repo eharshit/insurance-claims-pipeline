@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# dbt
+data-generator/ins_dbt/logs/
+data-generator/ins_dbt/target/
+data-generator/ins_dbt/dbt_packages/
+data-generator/ins_dbt/profiles.yml
+
+# Power BI
+*.pbix
+*.pbit
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (if large)
+*.csv
+*.parquet
+*.xlsx
+!data-generator/ins_dbt/seeds/*.csv
